@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="covid.css">
+
+    <title>COVID TRACKER</title>
+</head>
+
+<body>
+    <nav class="navbar h-nav-resp" style="background-color: black;">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="covidnavlogo.png" alt="logo" height="50" width="50"></div>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#Contact">Contact Us</a></li>
+        </ul>
+
+        <div class="rightNav v-class-resp">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <section class="background firstSection" id="Home">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">WELCOME TO COVID TRACKER</p>
+                <p class="text-small">In this world of Almost 8 billion population where covid is on the verge of
+                    destroying economy of whole world our platform serves the best site to track covid 19 </p>
+                <div class="buttons">
+                    <button class="btn">Subscribe</button>
+                    <button class="btn">Watch Video</button>
+                </div>
+            </div>
+            <div class="secondHalf">
+                <img src="covidlogo.jpg" alt="logo" height="120" width="120">
+            </div>
+        </div>
+
+    </section>
+    <section class="about" id="About">
+        <div class="intro">
+            <p>About</p>
+        </div>
+        <section class="aboutPara">
+            <div class="aboutInfo">
+                <p>
+                    The Covid-19 has spread so much around the world that it is difficult to track its length. However
+                    in
+                    this critical situation our platform serves you with the best solution.<br> <br> This website would
+                    provide you with the daily updates of the spread of corona in different countries of the world.This
+                    Platform provides you with the actual live data of the covid cases.<br> We are also providing you
+                    with
+                    the information facility of the covid centres and the address of the blood donation camp. You have
+                    to
+                    just write your grievances by filling up the contact form and our office you contact you
+                    soon.<br>Hope!!
+                    this platform would help you to the fullest
+                </p>
+            </div>
+            <div class="aboutimage"><img src="covidabout.jpg" alt="covid image" height="250" width="250">
+            </div>
+        </section>
+    </section>
+    <section class="Services" id="Services">
+        <div class="servicehead">
+            <p>SERVICES</p>
+        </div>
+        <div class="arrow">
+            <img src="arrow image.png" alt="arrow img" height="50" width="70">
+        </div>
+        <div class="covidtrack">
+            <p>Track the Covid Spread</p>
+        </div>
+        <div class="trackinfo">
+            <div class="nameOfCountry">
+                <label>
+                    <b>Select the country</b>
+                </label>
+                <select name="country" class="country" id="country">
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="UK">UK</option>
+                    <option value="Russia">Russia</option>
+                    <option value="Turkey">Turkey</option>
+                    <option value="France">France</option>
+                    <option value="Iran">Iran</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Spain">Spain</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="Poland">Poland</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Malaysia">Malaysia</option>
+                    <option value="Iraq">Iraq</option>
+                    <option value="Netherlands">Netherlands</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Thailand">Thailand</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="Israel">Israel</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Belgium">Belgium</option>
+                    <option value="Sweden">Sweden</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Switzerland">Switzerland</option>
+                    <option value="Vietnam">Vietnam</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="Austria">Austria</option>
+                    <option value="UAE">UAE</option>
+                    <option value="Greece">Greece</option>
+                    <option value="Saudi Arabia">Saudi Arabia</option>
+                    <option value="Sri Lanka">Sri Lanka</option>
+                    <option value="Myanmar">Myanmar</option>
+                    <option value="Kuwait">Kuwait</option>
+                    <option value="Ireland">Ireland</option>
+                    <option value="Denmark">Denmark</option>
+                    <option value="Ethiopia">Ethiopia</option>
+                    <option value="Libya">Libya</option>
+                    <option value="S.Korea">S.Korea</option>
+                    <option value="Egypt">Egypt</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="Qatar">Qatar</option>
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="Norway">Norway</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Singapore">Singapore</option>
+                    <option value="China">China</option>
+                    <option value="Maldives">Maldives</option>
+                    <option value="Luxembourg">Luxembourg</option>
+                    <option value="Madagascar">Madagascar</option>
+                    <option value="Syria">Syria</option>
+                    <option value="Hong Kong">Hong Kong</option>
+                    <option value="Iceland">Iceland</option>
+                    <option value="Niger">Niger</option>
+                    <option value="Liberia">Liberia</option>
+                    <option value="New Zealand">New Zealand</option>
+                    <option value="Bhutan">Bhutan</option>
+                    <option value="Greenland">Greenland</option>
+                </select>
+            </div>
+            <div class="case">
+                <div class="card one">
+                    <div class="img1 Confirm"><img src="confirmed.jpg" alt="confirmed image" height="150" width="200">
+                    </div>
+                    <div class="type confirmed">Confirmed Cases</div>
+                    <div class="noOfCase" id="confirmed">33,096,718</div>
+                </div>
+                <!-- <div class="card two">
+                    <div class="img1 New"><img src="new covid.jpeg" alt="new image" height="150" width="200"></div>
+                    <div class="type new">New Cases</div>
+                    <div class="noOfCase" id="new">1,268</div>
+                </div> -->
+                <div class="card three">
+                    <div class="img1 Critical"><img src="critical.jpg" alt="critical image" height="150" width="200">
+                    </div>
+                    <div class="type critical">Critical Cases</div>
+                    <div class="noOfCase" id="critical">391,224</div>
+                </div>
+                <div class="card four">
+                    <div class="img1 Recovered"><img src="recovery.png" alt="recovered image" height="150" width="200">
+                    </div>
+                    <div class="type recovered">Recovered Cases</div>
+                    <div class="noOfCase" id="recovered">32,264,051</div>
+                </div>
+                <div class="card five">
+                    <div class="img1 Death"><img src="deaths.jpg" alt="Death image" height="150" width="200"></div>
+                    <div class="type death">Death Cases</div>
+                    <div class="noOfCase" id="death">441,443</div>
+                </div>
+
+            </div>
+
+        </div>
+        <section class="registerVaccine">
+            <div class="arrow">
+                <img src="arrow image.png" alt="arrow img" height="50" width="70">
+            </div>
+            <div class="covidtrack">
+                <p>Register for your Vaccine</p>
+            </div>
+            <div class="register">
+                <p> The vaccine is available for 18+ age group. Those in this age group can register for Covid-19
+                    vaccination on the CoWIN portal. <br>The registrations and appointments for vaccination have already
+                    started.
+                </p>
+            </div>
+            <div class="vacimg"><img src="vaccine.webp" alt="vaccine img" height="200" weight="200"></div>
+            <div class="imgsub">Most of them have vaccinated for first dose and even for second dose. <br>So are'nt you the
+                sincere citizen.....get vaccinated soon </div>
+            <div class="vaccinepara">
+                <p>
+                    Those in the age group of 18+ can register on CoWIN. Registrations opened on April 28 and are still
+                    continuing.<br>To register,you can log into the CoWIN portal using the link <a
+                        href="https://www.cowin.gov.in/">https://www.cowin.gov.in/</a>
+                    and click on the "Register/sign In yourself" tab <br>to register for the COVID-19 vaccination.<br>
+                    Alternatively you can also register for vaccination through the Arogya Setu App.
+
+                </p>
+            </div>
+        </section>
+        <section class="impQuestion">
+            <div class="arrow">
+                <img src="arrow image.png" alt="arrow img" height="50" width="70">
+            </div>
+            <div class="covidtrack">
+                <p>Important Questions Asked </p>
+            </div>
+            <div class="imgQ1"><img src="Q1 image.webp" alt="Q1 image" height="200" width="250"></div>
+            <div class="imgQ1sub">Private hospitals to charge Rs. 250 for Covid Vaccines</div>
+            <div class="Q1">
+                <p>1) Can I get a vaccination without an appointment?</p>
+            </div>
+            <div class="A1">
+                <p>The government says that citizens aged 18+ should mandatorily register themselves and schedule
+                    appointments online before vaccination.<br>However currently On-spot registration or walk-in facility is
+                    currently not allowed at private hospitas for the 18+ years age group.</p>
+            </div>
+            <div class="Q2">
+                <p>2) How many people can be registered in the Co-WIN portal through one mobile number?</p>
+            </div>
+            <div class="A2">
+                <p>Up to four people can be registered for vaccination using the same mobile number.</p>
+            </div>
+            <div class="Q3">
+                <p>3) Can I register for vaccination without an Aadhaar card?</p>
+            </div>
+            <div class="A3">
+                <p>Yes, you can register on the Co-WIN portal using any of the following ID proofs:<a
+                        href="https://www.mygov.in/covid-19/">Aadhaar card</a> ; Driving License; PAN card; Passport;<br>
+                    Pension Passbook; NPR Smart Card; and Voter ID (EPIC).</p>
+            </div>
+            <div class="Q4">
+                <p>4) How can I get a new COVID-19 Vaccination card</p>
+            </div>
+            <div class="A4">
+                <p>If you need a new vaccination card, contact the vaccination provider site where you received your
+                    vaccine. Your provider should give you a new card<br> with up-to-date information about the vaccinations
+                    you
+                    have received.<br>
+
+                    If the location where you received your COVID-19 vaccine is no longer operating, contact your state
+                    or
+                    local health department’s<br> <a
+                        href="https://www.cdc.gov/vaccines/programs/iis/contacts-locate-records.html#state">immunization
+                        information system (IIS)</a> for assistance.<br>
+
+                    CDC does not maintain vaccination records or determine how vaccination records are used, and CDC
+                    does
+                    not provide the CDC-labeled, <br>white COVID-19 vaccination record card to people. These cards are
+                    distributed to vaccination providers by state and local health departments.<br> Please <a
+                        href="https://www.cdc.gov/coronavirus/2019-ncov/php/hd-search/index.html">contact your state or
+                        local health department</a> if you have additional questions about vaccination cards or
+                    vaccination
+                    records.
+                </p>
+            </div>
+            <div class="Q5">
+                <p>5) If I have already had COVID-19 and recovered,do I still need to get vaccinated with a COVID-19
+                    vaccine? </p>
+            </div>
+            <div class="A5">
+                <p>Yes, you should be vaccinated regardless of whether you already had COVID-19 because:<br>
+
+                    a --> Research has not yet shown how long you are protected from getting COVID-19 again after you
+                    recover from COVID-19.<br>
+                    b --> Vaccination helps protect you even if you’ve already had COVID-19</p>
+            </div>
+            <div class="Q6">
+                <p>6) Can I choose which COVID-19 vaccine I get?</p>
+            </div>
+            <div class="A6">
+                <p>Yes. All currently authorized and recommended COVID-19 vaccines are safe and effective, and CDC does
+                    not
+                    recommend one vaccine over another. <br>The most important decision is to get a COVID-19 vaccination as
+                    soon
+                    as possible. Widespread vaccination is a critical tool to help stop the pandemic.</p>
+            </div>
+            <div class="Q7">
+                <p>7) Can I get vaccinated against COVID-19 while I am currently sick with COVID-19?</p>
+            </div>
+            <div class="A7">
+                <p>No. People with COVID-19 who have symptoms should wait to be vaccinated until they have recovered
+                    from
+                    their illness and have met the criteria for <br>discontinuing isolation; those without symptoms should
+                    also
+                    wait until they <a
+                        href="https://www.cdc.gov/coronavirus/2019-ncov/your-health/quarantine-isolation.html">meet the
+                        criteria</a> before getting vaccinated. <br>This guidance also applies to people who
+                    get COVID-19 before getting their second dose of vaccine.</p>
+            </div>
+        </section>
+        <section class="impUpdates">
+            <div class="arrow">
+                <img src="arrow image.png" alt="arrow img" height="50" width="70">
+            </div>
+            <div class="covidtrack">
+                <p>Important Updates</p>
+            </div>
+            <div class="youtube">
+                <div class="video vid1">
+                    <iframe width="300" height="230" src="https://www.youtube.com/embed/fgWWUksU4R0"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="video vid2">
+                    <iframe width="300" height="230" src="https://www.youtube.com/embed/AUwcmW4zERw"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="video vid3">
+                    <iframe width="300" height="230" src="https://www.youtube.com/embed/ymwQ6UoH4LM"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="video vid4">
+                    <iframe width="300" height="230" src="https://www.youtube.com/embed/DRunU-upTjk"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="contact" id="Contact">
+        <div class="container">
+            <div class="contactinfo">
+                <div>
+                    <h2 style="padding: 25px 68px;">Contact Info</h2>
+                    <ul class="info">
+                        <li>
+                            <div><img src="AddressIcon.png" alt="adress image"></div>
+                            <div class="address"><a
+                                    href="https://www.google.com/maps/place/middle+School+Ratan/@25.5946061,86.2555058,19.34z/data=!4m5!3m4!1s0x39f20133bdcab63f:0x92b3cdfb79fc047!8m2!3d25.5946285!4d86.2559178"
+                                    targrt="_blank">Ratan,Bakhri(Ps)<br>Begusarai(dist),Bihar<br>Pin code:- 848201</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div><img src="email icon.png" alt="email image"></div>
+                            <div class="email"><a href="mailto:sahupawan9749568594@gmail.com"
+                                    target="_blank">sahupawan9749568594@gmail.com</a></div>
+                        </li>
+                        <li>
+                            <div><img src="call icon.png" alt="call image" style="border-radius: 1000px;"></div>
+                            <div class="call"><a href="tel:+919749568594" targrt="_blank">9749568594</a></div>
+                        </li>
+                    </ul>
+                    <ul class="socialLink">
+                        <li><a href="https://www.facebook.com/pawankumar.sahu.7127146/" targrt="_blank"><img
+                                    src="facebook.png" alt="facebook img" style="border-radius: 16px;"></a></li>
+                        <li><a href="https://twitter.com/PawanKu82219048" targrt="_blank"><img src="twitter.png"
+                                    alt="twitter img"></a></li>
+                        <li><a href=" https://www.instagram.com/pawan_kumar_9749/" target="_blank"><img src="insta.png"
+                                    alt="instagram img" style="border-radius: 18px;"></a></li>
+                        <li><a href="https://www.linkedin.com/in/pawan-kumar-sahu-4-year-b-tech-civil-engineering-4329a2208/"
+                                targrt="_blank"><img src="linkedin.png" alt="linkedin img"
+                                    style="border-radius: 19px;"></a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="contactForm">
+                <h2 style="margin: 31px 159px; display: flex;">Send a Message</h2>
+                <div class="formBox">
+                    <div class="inputBox w50">
+                        <span>First Name :- </span><br>
+                        <input type="text" placeholder="Enter your first name" name="first" required>
+                    </div>
+                    <div class="inputBox w50">
+                        <span>Last Name :- </span><br>
+                        <input type="text" placeholder="Enter your second name" name="last" required>
+                    </div>
+                    <div class="inputBox w50">
+                        <span>Email Address :- </span><br>
+                        <input type="text" placeholder="Enter your email address" name="email" required>
+                    </div>
+                    <div class="inputBox w50">
+                        <span>Mobile Number :- </span><br>
+                        <input type="text" placeholder="Enter your mobile number" name="mobile" required>
+                    </div>
+                    <div class="inputBox w100">
+                        <span>Write your message here .....</span><br>
+                        <textarea name="" placeholder="Ellaborate your Concern about Covid" required></textarea>
+                    </div>
+                    <div class="inputBox w150">
+                        <input type="submit" value="Send">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="copyRight">
+        <p>
+            Copyright@2021-www.PawanEducation.com-All rights reserved
+        </p>
+    </section>
+    <script src="covid.js"></script>
+</body>
+
+</html>
